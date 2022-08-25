@@ -14,7 +14,6 @@ app_id = os.environ["APP_ID"]
 
 # 微信公众号 app_secret
 app_secret = os.environ["APP_SECRET"]
-https://github.com/saozimian/wx-weather-py.git
 # 彩虹屁接口密钥 key
 key = os.environ["KEY"]
 
