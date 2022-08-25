@@ -45,7 +45,7 @@ def get_random_color():
 
 # 天气信息
 def get_weather(city):
-    url = "https://restapi.amap.com/v3/weather/weatherInfo?output=JSON&key=" + key + "&city=" + city
+    url = "https://restapi.amap.com/v3/weather/weatherInfo?output=JSON&key=c30e6f0f5e3bd721b57674ca15aaacc0&city=" + city
     res = requests.get(url).json()
     print(res)
     weather = res["lives"][0]
